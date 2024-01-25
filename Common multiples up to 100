@@ -1,0 +1,8 @@
+x = 0
+num1, num2 = input("What are the two numbers? ") .split()
+while x < 100: 
+    if x % int(num1) == 0 and x > 0:
+        print (str(x) + " can be divided by " + str(num1) + " and also " + str(num2))
+        x = x + int(num2)
+    else:
+        x = x + int(num2)
